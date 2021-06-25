@@ -1,0 +1,17 @@
+.cart-box {
+    display: flex;
+    text-decoration: none;
+}
+
+.cart-box:hover {
+    background-color: #E6E8EA;
+}
+
+.counter {
+    background-color: #F8475F;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 5px 8px 0px 8px;
+    text-align: center;
+}
