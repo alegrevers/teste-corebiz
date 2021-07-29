@@ -1,11 +1,8 @@
 import styled from 'styled-components';
 
 export const Footer = styled.footer`
-    background-color: #000000;
+    background-color: #8a1818;
     color: #ffffff;
-    a {
-        text-decoration: none;
-    }
 `;
 
 export const Wrapper = styled.div`
@@ -18,25 +15,6 @@ export const Wrapper = styled.div`
     @media(max-width: 700px){
         flex-direction: column;
         align-items: initial;
-    }
-`;
-
-export const Location = styled.div`
-    h3{
-        font-size: 20px;
-    }
-    hr{
-        width: 44px;
-        border: 2.5px solid #ffffff;
-        margin: 20px 0
-    }
-    p{
-        margin-top: 10px;
-        font-size: 13px;
-    }
-    
-    @media(max-width: 700px){
-        margin-bottom: 30px
     }
 `;
 
@@ -72,28 +50,5 @@ export const Button = styled.a`
     a {
         text-decoration: none;
         color: #000000;
-    }
-`;
-
-export const Sign = styled.div`
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    p{
-        font-size: 10px;
-        font-weight: normal;
-    }
-    svg{
-        height: 18px;
-        path{
-            fill: #ffffff;
-        }
-    }
-    @media(max-width: 700px){
-        align-self: center;
-        grid-gap: 50px;
-    }
-    a {
-        color: #ffffff;
     }
 `;
